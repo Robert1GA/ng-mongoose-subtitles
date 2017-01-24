@@ -6,17 +6,15 @@ function($stateProvider, $urlRouterProvider, $locationProvider) {
   $stateProvider
   .state('home', {
     url: '/',
-    templateUrl: 'views/home.html',
     component: 'homeComp'
   })
   .state('watch', {
     url: '/watch',
-    templateUrl: 'views/watch.html',
     component: 'watchComp'
   })
   .state('error', {
-    url: '/error',
-    templateUrl: 'views/error'
+    url: '/views/error',
+    component: 'errorComp'
   })
 
   $locationProvider.html5Mode(true);
