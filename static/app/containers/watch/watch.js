@@ -1,6 +1,6 @@
 angular.module('SubtitleApp')
 .component('watchComp', {
-  templateUrl: '/containers/watch/watch.html',
+  templateUrl: 'app/containers/watch/watch.html',
   controller: 'WatchCompCtrl',
   controllerAs: 'watchComp'
 })

@@ -1,4 +1,4 @@
-angular.module('SubtitleApp', [ui.router])
+angular.module('SubtitleApp', ['ui.router'])
 .config(['$stateProvider', '$urlRouterProvider', '$locationProvider',
 function($stateProvider, $urlRouterProvider, $locationProvider) {
   $urlRouterProvider.otherwise('/error');

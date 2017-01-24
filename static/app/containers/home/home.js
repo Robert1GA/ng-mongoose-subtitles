@@ -1,12 +1,12 @@
 angular.module('SubtitleApp')
 .component('homeComp', {
-  templateUrl: '/containers/home/home.html',
-  controller: 'homeCompCtrl',
+  templateUrl: 'app/containers/home/home.html',
+  controller: 'HomeCompCtrl',
   controllerAs: 'homeComp'
 });
 
-function homeCompCtrl() {
+function HomeCompCtrl() {
   var homeComp = this;
 }
 
-homeCompCtrl.$inject = [];
+HomeCompCtrl.$inject = [];
